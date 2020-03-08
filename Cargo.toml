@@ -3,6 +3,7 @@ name = "coordinates"
 version = "0.1.0"
 authors = ["Mattis Marjak <mattis.marjak@gmail.com>"]
 license = "MIT"
+edition = "2018"
 
 [dependencies]
 lazy_static = "1.4"

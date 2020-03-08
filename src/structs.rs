@@ -23,7 +23,7 @@
  */
 
 use std::convert::From;
-use ::conversions::{ecef_to_lla, lla_to_ecef};
+use crate::conversions::{ecef_to_lla, lla_to_ecef};
 
 
 #[derive(Debug, Copy, Clone, serde::Deserialize, serde::Serialize)]

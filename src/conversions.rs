@@ -22,7 +22,7 @@
  * SOFTWARE.
  */
 
-use ::structs::{ECEF, LLA};
+use crate::structs::{ECEF, LLA};
 
 // Conversion formulas from https://microem.ru/files/2012/08/GPS.G1-X-00006.pdf
 

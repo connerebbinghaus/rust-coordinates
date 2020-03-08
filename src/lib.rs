@@ -35,5 +35,5 @@ mod conversions;
 #[cfg(test)]
 mod test;
 
-pub use structs::{ECEF, LLA};
-pub use conversions::{lla_to_ecef, ecef_to_lla};
+pub use crate::structs::{ECEF, LLA};
+pub use crate::conversions::{lla_to_ecef, ecef_to_lla};
