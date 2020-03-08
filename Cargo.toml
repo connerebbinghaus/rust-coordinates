@@ -5,5 +5,5 @@ authors = ["Mattis Marjak <mattis.marjak@gmail.com>"]
 license = "MIT"
 
 [dependencies]
-rustc-serialize = "*"
-lazy_static = "*"
+lazy_static = "1.4"
+serde={version = "1.0", features=["derive"]}
